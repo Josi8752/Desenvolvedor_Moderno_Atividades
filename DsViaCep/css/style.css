@@ -1,0 +1,127 @@
+@import 'modal.css';
+ @import'buttons.css';
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+
+
+:root {
+    --color0000--: #000;
+    --colorff84--: #ff8400;
+    --colorfff--: #fff;
+    --color333--: #333;
+    --colorfaa--: #faa;
+    --colorc9c9--: #c9c9c9;
+    --colorddd--: #ddd;
+    --color8f8f--: #8f8f8f;
+  }
+ 
+ 
+  html, body {
+    background-color: var(--color0000--);
+  }
+  
+  .nav-container {
+    height: 80px;
+    background-color: var(--colorff84--);
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-main {
+    width: 100%; /* faz com que ocupe a largura maxima da tela.*/
+    max-width: 900px; /*mesmo que a largura maxima seja 100% a largura maxima do titulo não vai estorar, ficara somente nos 900px.*/
+    margin: 0 auto; /* ficara ao centro*/
+    display: flex; /* fara com que os elementos fiquem um ao lado do outro. */
+    align-items: center; /* alinha as escritas ao centro.*/
+    justify-content: space-between; /* na horizontal coloca cada escrita em um canto . o primeiro mais a esquerda e o segundo mais a esquerda 
+      e coloca um espaço entre eles.*/
+  }
+  .nav-main h1 {
+    color: var(--colorfff--);
+    font-size: 36px;
+  }
+  
+  .contact-link {
+    color: var(--colorfff--);
+    cursor: pointer; /* usamos para quando passar o mause o cursor muda para uma mao*/
+  }
+  
+  .form-container {
+    width: 100%;
+    padding: 40px 20px;
+  }
+  
+  .card-form {
+    background-color: var(--color333--);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  .form-control {
+    margin-bottom: 20px;
+  }
+  .form-control label {
+    display: none; /* desaparecer o label*/
+  }
+  .error-message {
+    margin-top: 5px;
+    color: var(--colorfaa--);
+  }
+  .form-input {
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    padding: 0 20px; /* o zero tira as bordas de cima e em baixo e o 20 add as bordas laterais*/
+    font-size: 14px;
+    border: 0;
+  }
+  .form-input::placeholder {
+    /*formatar com o nome da classe:: alguma ação especifica. Aqui foi formatada o placeholder*/
+    color: var(--colorc9c9--);
+  }
+  
+  .form-input:disabled {
+    /*formatar com o nome da classe: alguma ação especifica. Aqui foi formatada o disabled*/
+    background-color: var(--colorddd--);
+  }
+  
+  .list-container {
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-list-item {
+    background-color: var(--color333--);
+    color: var(--colorfff--);
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 900px;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  .card-list-item h3 {
+    color: var(--colorff84--);
+    font-size: 18px;
+  }
+  
+  .address-line {
+    color: var(--colorfff--);
+    font-size: 14px;
+  }
+  
+  .address-cep {
+    color: var(--color8f8f--);
+    font-size: 12px;
+  }
+  

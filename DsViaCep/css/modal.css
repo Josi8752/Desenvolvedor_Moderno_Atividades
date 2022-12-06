@@ -1,0 +1,44 @@
+:root{
+    --color44:  #444;
+    --colorrgba: rgba(0, 0, 0, 0.5);
+    --coloraa: #aaa;
+    --colorff: #fff;
+}
+  
+  .modal-container{
+    position: fixed;
+   top: 0;
+   left: 0;
+
+padding: 20px;
+
+   background-color: var(--colorrgba);
+   height: 100vh;
+   width: 100%;
+   z-index: 1;
+
+   display: none;
+  }
+
+  .modal-container.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-box{
+    width: 100%;
+    max-width: 450px;
+    background-color: var(--color44);
+    padding: 20px;
+    border-radius: 10px;
+    border: 10px solid var(--coloraa);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .modal-content{
+    color: var(--colorff);
+    margin-bottom: 40px ;
+  }
