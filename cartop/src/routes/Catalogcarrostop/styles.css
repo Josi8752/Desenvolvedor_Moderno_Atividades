@@ -1,0 +1,13 @@
+#catalogcarrostop-section{
+    padding: 40px 0;
+}
+
+.cartop-search-bar-container{
+    margin-bottom: 40px;
+
+}
+.cartop-container-cards{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+  }

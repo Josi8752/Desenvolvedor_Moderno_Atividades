@@ -1,0 +1,45 @@
+.cartop-card {
+  height: 347px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: var(--color-bg-terciary);
+
+}
+
+.cartop-card img {
+  width: 220px;
+  height: 165px;
+  margin: 14px 36px 8px 20px;
+}
+
+.cartop-card h3 {
+  height: 21px;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.cartop-card p {
+  height: 32px;
+  color: var(--color-font-quaternary);
+  font-size: 14px;
+  font-weight: 400;
+  margin: 14px 14px 0 22px;
+
+}
+
+.cartop-card button {
+  width: 260px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 38px 15px;
+}
+
+@media (min-width: 576px) {
+  .cartop-card p {
+    font-size: 12px;
+  }
+}

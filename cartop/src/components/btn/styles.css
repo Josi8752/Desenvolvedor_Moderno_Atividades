@@ -1,0 +1,16 @@
+.cartop-btn-submit {
+  height: 40px;
+  text-align: center;
+
+
+}
+
+.cartop-btn {
+  background: var(--color-bg-btn);
+  border: none;
+  border-radius: 5px;
+  color: var(--color-font-sencundary);
+  font-weight: 700;
+  text-transform: uppercase;
+
+}

@@ -1,0 +1,28 @@
+
+
+.cartop-search-bar input {
+    width: calc(100% - 80px);
+    height: 40px;
+    border: 1px solid var(--color-border-placeholder);
+    border-radius: 5px 0 0 5px;
+    padding: 15px;
+    font-size: 16px;
+
+}
+
+.cartop-search-bar input:focus {
+
+    outline: none;
+}
+
+.cartop-search-bar input::placeholder {
+    color: var(--color-font-placeholder);
+
+}
+
+.cartop-search-bar button {
+    width: 77px;
+    height: 40px;
+    border-radius: 0 5px 5px 0;
+    font-size: 14px;
+}
